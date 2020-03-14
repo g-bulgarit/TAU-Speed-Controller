@@ -29,23 +29,8 @@ function speed_75(){
 /* Gross event listeners */
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("fast15").addEventListener("click", speed_15);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("fast125").addEventListener("click", speed_125);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("normal").addEventListener("click", speed_normal);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("slow85").addEventListener("click", speed_85);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("slow75").addEventListener("click", speed_75);
 });
-
-
-
