@@ -1,7 +1,7 @@
 {
   "name": "Unicko Speed Controller",
   "version": "1.0",
-  "description": "Make lectures fast again...",
+  "description": "Make video lectures fast again",
   "manifest_version": 2,
 
   "browser_action" : {
