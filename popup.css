@@ -36,8 +36,9 @@
 }
 
 .steps {
-  width: 150px;
+  width: 140px;
   display: flex;
+  padding-left: 12px;
   justify-content: space-evenly;
   top: 15px;
   position: absolute;
@@ -45,12 +46,13 @@
 }
 
 .pos {
-  width: 16.6667px;
+  width: 20px;
   display: flex;
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  z-index: 2;
   }
 
 .dot {
@@ -79,6 +81,7 @@
     opacity: 1; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
+    z-index: 1;
 }
   
   /* Mouse-over effects */
@@ -90,10 +93,10 @@
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 15px; /* Set a specific slider handle width */
-    height: 15px; /* Slider handle height */
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
     border-radius: 50%; 
-    border:1px solid black;
+    border:1px solid rgb(12, 62, 170);
     background: whitesmoke; /* Green background */
     cursor: pointer; /* Cursor on hover */
     z-index: 1001;
