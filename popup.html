@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 35px;
-        width: 130px;
-        outline: none;
-      }
-    </style>
+    <link rel="stylesheet" href="popup.css">
   </head>
   <body>
+    <script src="jquery.min.js"></script>
+	<script src="rangeslider.js"></script>	
+	<input
+	id = "slider"
+    type="range"
+    min="0.5"                    // default 0
+    max="2.5"                  // default 100
+    step="0.25"                   // default 1
+    value="1"                 // default min + (max-min)/2
+    data-orientation="vertical" // default horizontal>
+	
+	<p align="center" id="slider_value">1</p>
+	<button type=button id="reset">Reset</button>
 
-    <button type=button id="fast15">1.5X Speed</button>
-    <button type=button id="fast125">1.25X Speed</button>
-    <button type=button id="normal">Normal Speed</button>
-    <button type=button id="slow85">0.85X Speed</button>
-    <button type=button id="slow75">0.75X Speed</button>
     <script src="popup.js"></script>
 
   </body>
