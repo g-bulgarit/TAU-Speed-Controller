@@ -1,8 +1,8 @@
-body{
+#unico-fast{
     background: linear-gradient(180deg, #00B4DB 0%,#0083B0 100%) no-repeat;
 }
 
-button {
+#reset {
     box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
 	background-color:#f9f9f9;
@@ -20,7 +20,7 @@ button {
     text-align: center;
   }
 
-  p{
+  #slider-value{
     width: 20px;
     padding: 20px;
     font-family: Arial;
