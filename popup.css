@@ -11,8 +11,35 @@ p{
     font-style: normal;
 }
 
+body {
+  width: 150px;
+}
+
+.steps {
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 15px;
+  position: absolute;
+  height: 5px;
+}
+
+.pos {
+  width: 16.6667px;
+  display: flex;
+}
+
+.dot {
+  width: 4px; 
+  height: 6px;
+  background-color: rgb(51,103,214);
+  border-radius: 50%;
+}
+
+
+
 .slidecontainer {
-width: 100%; /* Width of the outside container */
+  width: 100%; /* Width of the outside container */
 }
   
   /* The slider itself */
@@ -24,31 +51,35 @@ width: 100%; /* Width of the outside container */
     border-radius: 7.5px;  
     background: #c9a6a6; /* Grey background */
     outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    opacity: 1; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
 }
   
   /* Mouse-over effects */
-.slider:hover {
+/*.slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
-}
+
   
   /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
     border-radius: 50%; 
-    background: rgb(39, 55, 199); /* Green background */
+    border:1px solid black;
+    background: whitesmoke; /* Green background */
     cursor: pointer; /* Cursor on hover */
+    z-index: 1001;
 }
   
 .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
     border-radius: 50%;
-    background: rgb(85, 100, 243); /* Green background */
+    border:1px solid black;
+    background: whitesmoke; /* Green background */
     cursor: pointer; /* Cursor on hover */
+    z-index: 1001;
 }

@@ -5,15 +5,26 @@
   </head>
   <body>
   <div class="slidecontainer">
-	<input
-	id = "slider"
-    type="range"
-    min="0.5"
-    max="2.5"
-    step="0.25"
-    value="1"
-    data-orientation="vertical" // default horizontal
-    class ="slider">
+    <div class="steps">
+      <div class="pos">&nbsp;</div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+      <div class="pos"><div class="dot">&nbsp;</div></div>
+    </div>
+    <input
+    id = "slider"
+      type="range"
+      min="0.5"
+      max="2.5"
+      step="0.25"
+      value="1"
+      data-orientation="vertical" // default horizontal
+      class ="slider">
   </div>
 	
   <p align="center" id="slider_value">1</p>
