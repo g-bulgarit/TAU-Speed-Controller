@@ -1,7 +1,8 @@
+body{
+    background: linear-gradient(180deg, #00B4DB 0%,#0083B0 100%) no-repeat;
+}
+
 button {
-    height: 28px;
-    width: 75px;
-    outline: none;
     box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
 	background-color:#f9f9f9;
@@ -9,19 +10,26 @@ button {
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#666666;
+	color:#444444;
 	font-family:Arial;
 	font-size:15px;
     font-weight:bold;
-    text-align: center;
+    padding: 5px, 5px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
+	text-shadow:0px 1px 0px #ffffff;
+    text-align: center;
   }
 
   p{
+    width: 20px;
+    padding: 20px;
     font-family: Arial;
+    align-content: center;
     font-weight: bold;
+    background:#00B2D0;
     font-size:15px;
+    border-radius: 50%;
+    color: #f9f9f9;
     font-variant: normal;
     font-style: normal;
 }
@@ -29,6 +37,7 @@ button {
 .slidecontainer {
 width: 100%; /* Width of the outside container */
 }
+
   
   /* The slider itself */
 .slider {
@@ -37,7 +46,7 @@ width: 100%; /* Width of the outside container */
     width: 150px; /* Full-width */
     height: 15px; /* Specified height */
     border-radius: 7.5px;  
-    background: #c9a6a6; /* Grey background */
+    background: #f9f9f9; /* Grey background */
     outline: none; /* Remove outline */
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -64,7 +73,7 @@ width: 100%; /* Width of the outside container */
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
     border-radius: 50%;
-    background: rgb(85, 100, 243); /* Green background */
+    background: #0083B0; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
 
