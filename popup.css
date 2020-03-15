@@ -1,7 +1,16 @@
 button {
-    height: 35px;
-    width: 150px;
+    height: 28px;
+    width: 75px;
     outline: none;
+    align-self: center;
+    align-content: center;
+    position: center;
+  }
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
+      font-variant: normal;
+      font-style: normal;
   }
 
   .slidecontainer {
@@ -12,10 +21,10 @@ button {
   .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
-    width: 100%; /* Full-width */
+    width: 150px; /* Full-width */
     height: 15px; /* Specified height */
-    border-radius: 5%;  
-    background: #d3d3d3; /* Grey background */
+    border-radius: 7.5px;  
+    background: #c9a6a6; /* Grey background */
     outline: none; /* Remove outline */
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -34,7 +43,7 @@ button {
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
     border-radius: 50%; 
-    background: #4CAF50; /* Green background */
+    background: rgb(39, 55, 199); /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
   
@@ -42,6 +51,6 @@ button {
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
     border-radius: 50%;
-    background: #4CAF50; /* Green background */
+    background: rgb(85, 100, 243); /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
