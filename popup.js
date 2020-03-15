@@ -13,8 +13,6 @@ function update_slider(){
 
   var slider_value = document.getElementById("slider").value;
   var action_str = "document.getElementsByTagName('video')[0].playbackRate =" + slider_value;
-  console.log(slider_value);
-  console.log(action_str);
   document.getElementById("slider_value").innerHTML = document.getElementById("slider").value;
   chrome.tabs.query({ active: true, currentWindow: true}, function(activeTabs) {
     chrome.tabs.executeScript(activeTabs[0].id, { code: action_str});})
