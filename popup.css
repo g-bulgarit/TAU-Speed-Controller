@@ -69,13 +69,10 @@
   border-radius: 50%;
 }
 
-
-
 .slidecontainer {
   width: 100%; /* Width of the outside container */
 }
 
-  
   /* The slider itself */
 .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
@@ -90,12 +87,7 @@
     transition: opacity .2s;
     z-index: 1;
 }
-  
-  /* Mouse-over effects */
-/*.slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
 
-  
   /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */

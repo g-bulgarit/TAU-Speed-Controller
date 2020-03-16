@@ -1,3 +1,5 @@
+/* Functions */
+
 function speed_normal(){
   // Set video playback speed to 1x
   
@@ -5,7 +7,7 @@ function speed_normal(){
     chrome.tabs.executeScript(activeTabs[0].id, { code: "document.getElementsByTagName('video')[0].playbackRate = 1;"});
     document.getElementById("slider").value = "1";
     document.getElementById("slider_value").innerHTML = "1";
-});}
+  });}
 
 function update_slider(){
   // Update slider label based on slider position,
@@ -18,10 +20,12 @@ function update_slider(){
     chrome.tabs.executeScript(activeTabs[0].id, { code: action_str});})
   }
 
-  function update_number(){
-    // Update text value on slider move, but don't update playback speed.
-    document.getElementById("slider_value").innerHTML = document.getElementById("slider").value;
-  }
+function update_number(){
+  // Update text value on slider move, but don't update playback speed.
+  document.getElementById("slider_value").innerHTML = document.getElementById("slider").value;
+}
+
+/* Event Listeners */
 
 document.addEventListener('DOMContentLoaded', function() {
   // Add an event listener for the slider and for the reset button
