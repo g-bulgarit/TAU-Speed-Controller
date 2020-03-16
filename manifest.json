@@ -17,5 +17,5 @@
     }
   ],
 
-"permissions": ["http://*.unicko.com/*","https://*.unicko.com/*"]
+"permissions": ["http://*.unicko.com/*", "https://*.unicko.com/*"]
 }

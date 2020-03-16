@@ -1,15 +1,10 @@
 # Unicko Speed Controller
 Life is too short for 1x speed lectures.\
 Make video lectures **fast** again.
-_____________
-<p align="center">
-<img src="https://i.imgur.com/2wSAtLK.jpg">
- </p>
+<p align="center"><img src="https://i.imgur.com/2wSAtLK.jpg"></p>
 
 ## How to use:
-<p align="center">
-<img src="https://i.imgur.com/jAgifpz.png">
- </p>
+<p align="center"><img src="https://i.imgur.com/jAgifpz.png"></p>
 
 * Drag slider to change video playback rate
 * Click **Reset** to reset to x1
@@ -22,9 +17,6 @@ _______________
 4. Click on **"Load Unpacked"** and select the Unicko-Speed-Controller folder.
 5. The extension will now appear next to your other extensions on the top bar of the browser.
 
+<p align="center"> Gotta go fast! </p>
 
-Gotta go fast!
-
-<p align="center">
-<img src="https://i.imgur.com/GQCu9nR.jpg">
- </p>
+<p align="center"><img src="https://i.imgur.com/GQCu9nR.jpg"></p>
