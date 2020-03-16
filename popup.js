@@ -1,6 +1,6 @@
 function speed_normal(){
   // Set video playback speed to 1x
-
+  
   chrome.tabs.query({ active: true, currentWindow: true}, function(activeTabs) {
     chrome.tabs.executeScript(activeTabs[0].id, { code: "document.getElementsByTagName('video')[0].playbackRate = 1;"});
     document.getElementById("slider").value = "1";
@@ -18,8 +18,14 @@ function update_slider(){
     chrome.tabs.executeScript(activeTabs[0].id, { code: action_str});})
   }
 
+  function update_number(){
+    // Update text value on slider move, but don't update playback speed.
+    document.getElementById("slider_value").innerHTML = document.getElementById("slider").value;
+  }
+
 document.addEventListener('DOMContentLoaded', function() {
   // Add an event listener for the slider and for the reset button
   document.getElementById("reset").addEventListener("click", speed_normal);
   document.getElementById("slider").addEventListener("change", update_slider);
+  document.getElementById("slider").addEventListener("input", update_number);
 });
