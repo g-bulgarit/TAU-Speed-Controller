@@ -7,15 +7,15 @@
   box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
 	background-color:#f9f9f9;
-	border-radius:6px;
+	border-radius:10px;
 	border:1px solid #dcdcdc;
   display:inline-block;
 	cursor:pointer;
-	color:#444444;
+	color:#0083B0;
 	font-family:Arial;
 	font-size:15px;
   font-weight:bold;
-  padding: 5px, 5px;
+  padding: 8px, 8px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
   text-align: center;
@@ -27,20 +27,19 @@
     line-height: 20px;
     font-family: Arial;
     font-weight: bold;
-    background:#00B2D0;
+    background: linear-gradient(35deg, #0083B0 5%, #00B4DB 100%);
     font-size:18px;
     border-radius: 50%;
     color: #f9f9f9;
     font-variant: normal;
     font-style: normal;
     display: block;
-    border: 1px solid #f9f9f9;
-    box-shadow: 9px 21px 54px -12px rgba(0,0,0,0.29);
-
+    border: 2px solid #f9f9f9;
+    box-shadow: 9px 21px 54px -12px rgba(0,0,0,0.59);
+    text-shadow: 3px 3px 3px #bdbdbd;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .steps {
@@ -63,9 +62,9 @@
   }
 
 .dot {
-  width: 6px; 
-  height: 6px;
-  background-color: rgb(116, 146, 212);
+  width: 5px; 
+  height: 5px;
+  background-color: #00B4DB;
   border-radius: 50%;
 }
 
@@ -73,7 +72,7 @@
   width: 100%; /* Width of the outside container */
 }
 
-  /* The slider itself */
+
 .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
@@ -84,32 +83,25 @@
     outline: none; /* Remove outline */
     opacity: 1; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
+    transition: opacity .4s;
     z-index: 1;
+    opacity: 0.8;
 }
 
-  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
     border-radius: 50%; 
-    border:1px solid rgb(12, 62, 170);
+    border:1px solid rgb(13, 119, 143);
     background: whitesmoke; /* Green background */
     cursor: pointer; /* Cursor on hover */
     z-index: 1001;
 }
-  
-.slider::-moz-range-thumb {
-    width: 15px; /* Set a specific slider handle width */
-    height: 15px; /* Slider handle height */
-    border-radius: 50%;
-    border:1px solid black;
-    background: whitesmoke; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-    z-index: 1001;
-    cursor: pointer; /* Cursor on hover */
+
+.slider:hover{
+  opacity: 1;
 }
 
 .button_rounded:hover {
