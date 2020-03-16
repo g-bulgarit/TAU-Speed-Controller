@@ -16,13 +16,11 @@ _____________
   
 _______________
 ## How to contribute:
-1. Clone this repository
-2. Go to [Chrome extension Control Panel](chrome://extensions) - chrome://extensions
-
-3. **Turn on developer mode** on the top right
-4. Click on **"Load unpacked"** and select the Unicko-Speed-Controller folder.
-5. An icon will now appear in the top part of the chrome browser, clicking it will show some buttons that control the playback speed of your boring lectures.
-
+1. Clone this repository.
+2. Go to the [Chrome Extension Control Panel:](chrome://extensions) chrome://extensions
+3. **Turn on developer mode** on the top right.
+4. Click on **"Load Unpacked"** and select the Unicko-Speed-Controller folder.
+5. The extension will now appear next to your other extensions on the top bar of the browser.
 
 
 Gotta go fast!
