@@ -1,6 +1,9 @@
 # Unicko Speed Controller
 Life is too short for 1x speed lectures.\
 Make video lectures **fast** again.
+
+[Now on the Chrome Web-Store!](https://chrome.google.com/webstore/detail/unicko-speed-controller/jiklmkbgenafdloghgmhafdaaaimidek)
+
 <p align="center"><img src="https://i.imgur.com/2wSAtLK.jpg"></p>
 
 ## How to use:
