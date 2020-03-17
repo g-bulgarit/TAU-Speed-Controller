@@ -36,7 +36,7 @@
     display: block;
     border: 2px solid #f9f9f9;
     box-shadow: 9px 21px 54px -12px rgba(0,0,0,0.59);
-    text-shadow: 3px 3px 3px #bdbdbd;
+    text-shadow: 1px 1px 5px #bdbdbd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,8 @@
     height: 25px; /* Slider handle height */
     border-radius: 50%; 
     border:1px solid rgb(13, 119, 143);
-    background: whitesmoke; /* Green background */
+    background: #9ddceb; /* Green background */
+    opacity: 0.9;
     cursor: pointer; /* Cursor on hover */
     z-index: 1001;
 }

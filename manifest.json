@@ -1,11 +1,11 @@
 {
   "name": "Unicko Speed Controller",
-  "version": "0.1.2",
-  "description": "Make video lectures fast again",
+  "version": "0.1.3",
+  "description": "Make video lectures fast again - control video playback speed for your online lectures on the unicko platform.",
   "manifest_version": 2,
 
   "browser_action" : {
-    "default_icon": "icon.png",
+    "default_icon": "icon128.png",
     "default_popup": "popup.html"
   },
 
@@ -17,5 +17,9 @@
     }
   ],
 
-"permissions": ["http://*.unicko.com/*", "https://*.unicko.com/*"]
+"permissions": ["http://*.unicko.com/*", "https://*.unicko.com/*"],
+
+"icons": { "16": "icon16.png",
+  "48": "icon48.png",
+ "128": "icon128.png" }
 }
