@@ -6,6 +6,7 @@ Make video lectures **fast** again.
 
 <p align="center"><img src="https://i.imgur.com/NIB4ZLb.jpg"></p>
 
+## Current Version:  0.1.4
 ## Works on:
 * Unicko
 * Zoom
@@ -25,6 +26,11 @@ _______________
 4. Click on **"Load Unpacked"** and select the Unicko-Speed-Controller folder.
 5. The extension will now appear next to your other extensions on the top bar of the browser.
 
-<p align="center"> Gotta go fast! </p>
+<p align="center"> <B>Gotta go fast!</B> </p>
 
 <p align="center"><img src="https://i.imgur.com/GQCu9nR.jpg"></p>
+
+_____________
+## Changelog:
+* V_0.1.4 - Now supports Zoom and TAU Webserver, as well as Unicko.
+* V_0.1.3 - First publication on google webstore
