@@ -1,7 +1,7 @@
 {
   "name": "TAU-Video Controller",
   "version": "0.1.4",
-  "description": "Make video lectures fast again - control video playback speed for your online lectures on the unicko, TAU-webserver and zoom platforms.",
+  "description": "Make video lectures fast again - control playback speed for online lectures on the unicko, TAU-webserver and zoom platforms.",
   "manifest_version": 2,
 
   "browser_action" : {

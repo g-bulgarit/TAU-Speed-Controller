@@ -1,10 +1,15 @@
-# Unicko Speed Controller
+# TAU Video Speed Controller
 Life is too short for 1x speed lectures.\
 Make video lectures **fast** again.
 
 [Now on the Chrome Web-Store!](https://chrome.google.com/webstore/detail/unicko-speed-controller/jiklmkbgenafdloghgmhafdaaaimidek)
 
-<p align="center"><img src="https://i.imgur.com/2wSAtLK.jpg"></p>
+<p align="center"><img src="https://i.imgur.com/NIB4ZLb.jpg"></p>
+
+## Works on:
+* Unicko
+* Zoom
+* TAU Web-Server
 
 ## How to use:
 <p align="center"><img src="https://i.imgur.com/jAgifpz.png"></p>
