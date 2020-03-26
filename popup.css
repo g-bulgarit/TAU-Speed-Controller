@@ -54,13 +54,14 @@
   height: 5px;
   user-select: none; /* Standard */
   z-index: 2;
+  pointer-events: none;
 }
 
 .pos {
   width: 20px;
   display: flex;
   user-select: none; /* Standard */
-  z-index: 2;
+
   }
 
 .dot {
@@ -68,6 +69,10 @@
   height: 5px;
   background-color: #00B4DB;
   border-radius: 50%;
+  user-select: none; /* Standard */
+  z-index: 6;
+  pointer-events: none;
+
 }
 
 .slidecontainer {
